@@ -18,7 +18,6 @@ div{
 }
 .inside{
 	margin:0 auto;
-	width:48%;
 	border:0%;
 	display:inline-block;
 }
@@ -50,7 +49,13 @@ img{
         	getEle[i].style["max-width"] = getEle_divLeft.offsetWidth - 40 + "px"; //这里-40是padding的左右宽度和
     	}
 	}
+	@media screen and (max-width: 480px) {
+
+	img {width:50%}
+
+	}
 </script>
+
 
 
 	<!--替换这些文字来替换顶部文字，中间的链接替换成想放的链接-->
@@ -63,13 +68,12 @@ img{
 <!--这里是第一collection-->
 	<!--Collection链接标题-->
 	<h2 style="text-align: center;"><span> </span><strong><a href="https://www.beautybigbang.com/collections/nail-art?sort_by=created-descending" target="_blank" re_target="_blank" rel="noopener noreferrer">Nail Art New Arrivals &gt;&gt;</a></strong></h2>
-
+<!--这里是第一collection的第一banner-->
+	<div><img src="//cdn.shopify.com/s/files/1/1833/5737/files/b1.jpg?v=1510024756" class="img-responsive" alt="Cinque Terre"></div>
 	<!--产品阵列-->
-	<div class = "origin">
-		<div class="bigsample left">
+<!--		<div class="bigsample left">
 			<img src="//cdn.shopify.com/s/files/1/1833/5737/files/J2913TM.jpg?v=1510025304" class="img-responsive" alt="Cinque Terre">
-		</div>
-		<div class="smallsample right">
+		</div>-->
 			<div>
 				<div class="inside">
 					<img src="//cdn.shopify.com/s/files/1/1833/5737/files/5_73707512-b494-47c2-aba6-d9676c2d3927.jpg?v=1510024844" class="img-responsive" alt="Cinque Terre">
@@ -83,11 +87,11 @@ img{
 					<div class="cor"><a class="text-center">9.9$</a></div>
 					</div>				
 				</div>
-<!--			<div class="inside">
+				<div class="inside">
 					<img src="//cdn.shopify.com/s/files/1/1833/5737/files/3_5fba840e-ec26-413e-832a-ea00e586cd84.jpg?v=1510024836" class="img-responsive" alt="Cinque Terre">
 					<div class="cog"><a href = "address" class="text-center">123456</a></div>
 					<div class="cor"><a class="text-center">9.9$</a></div>
-				</div>	-->				
+				</div>			
 			</div>
 			<div>
 				<div class="inside">
@@ -100,11 +104,10 @@ img{
 					<div class="cog"><a href = "address" class="text-center">123456</a></div>
 					<div class="cor"><a class="text-center">9.9$</a></div>
 				</div>	
-<!--			<div class="inside">
+				<div class="inside">
 					<img src="//cdn.shopify.com/s/files/1/1833/5737/files/1_7c2bce26-23c7-473c-b2e4-bcf9c0c1d62f_large.jpg?v=1510024829" class="img-responsive" alt="Cinque Terre">
 					<div class="cog"><a href = "address" class="text-center">123456</a></div>
 					<div class="cor"><a class="text-center">9.9$</a></div>
-				</div>	-->
-			</div>				
-		</div>
+				</div>	
+			</div>	
 	</div>
