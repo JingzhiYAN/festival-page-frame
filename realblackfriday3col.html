@@ -1,8 +1,24 @@
 
+<!--<script>
+   // Cache the div so that the browser doesn't have to find it every time the window is resized.
+var $div = $('li.leaf.item');
+
+// Run the following when the window is resized, and also trigger it once to begin with.
+$(window).resize(function () {
+   // Get the current height of the div and save it as a variable.
+   var height = $div.height();
+   // Set the font-size and line-height of the text within the div according to the current height.
+   $div.css({
+      'font-size': (height/2) + 'px',
+      'line-height': height + 'px'
+   })
+}).trigger('resize');​
+</script>-->
 <style>
 div{
    margin:0 auto;
    text-align:center;
+   height:auto;
 }
 <!--not quite sure if this is needed XD-->
 .col-md-3 col-sm-6 col-xs-6{
@@ -12,6 +28,7 @@ div{
 }
 .lth{
    text-decoration: line-through;
+   font-size:15px;
 }
 .white{
    color:yellow;
@@ -27,7 +44,7 @@ img{
    background-color:black;
 }
 .fontsp{
-   font-size:15px;
+   font-size:30px;
 }
 .tagm{
    font-size:30px;
@@ -66,7 +83,7 @@ img{
   font: 13px/1.6 sans-serif;
   text-transform: uppercase;
   color: #333;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   text-align: center;
   text-rendering: optimizeLegibility;
 }
@@ -77,7 +94,7 @@ img{
 
 @media (min-width: 480px) and (max-width: 979px) {
   .reveal .caption { 
-    font-size: 11px; 
+    font-size: 10px; 
   }
 }
 </style>
@@ -105,7 +122,7 @@ img{
                </a>
                </div>
                <div class="cog"><a href = "https://www.beautybigbang.com/products/fish-scale-blush-foundation-makeup-brush-mermaid-nail-dust-brush" class="text-center white">Fish Scale Makeup Brush</a></div>
-               <div><span class="text-center lth">5.49$</span><span></span><span class = "text-center corf fontsp"><strong>2.99$</strong></span></div>
+               <div><span class="text-center lth">5.49$</span><span></span><span class = "text-center corf fontsp tagm"><strong>2.99$</strong></span></div>
             </div>   
             <div class="col-md-4 col-sm-6 col-xs-6">
                <div class = "reveal">
@@ -198,8 +215,99 @@ img{
          </div>
       </div>
 
-
+   <br></br>
+   <br></br>
+   <div class = "tagm text-center">
+      The more you buy the more you save in one purchase!
    <div>
-      <strong>How to</strong>
-         <span style:>1. The Buy More Save More. We have different discount code for you to use when you purchase different amount of goods.</span>
+   <br></br>
+   <br></br>
+
+   <div class = "container">
+      <div class = "row">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+               <div class = "reveal">
+               <a href="https://www.beautybigbang.com/products/fish-scale-blush-foundation-makeup-brush-mermaid-nail-dust-brush">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J2828_1024x1024.jpg?v=1499411786" class="img-responsive" alt="Cinque Terre">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J2828p.jpg?v=1499411800" class="img-responsive hidden" alt="Cinque Terre">
+               </a>
+               </div>
+               <div class="cog"><a href = "https://www.beautybigbang.com/products/fish-scale-blush-foundation-makeup-brush-mermaid-nail-dust-brush" class="text-center white">Fish Scale Makeup Brush</a></div>
+               <div><span class="text-center lth">5.49$</span><span></span><span class = "text-center corf fontsp"><strong>2.99$</strong></span></div>
+            </div>   
+            <div class="col-md-3 col-sm-6 col-xs-6">
+               <div class = "reveal">
+               <a href = "https://www.beautybigbang.com/products/smudge-free-matte-lip-gloss-long-lasting-velvet-liquid-lipstick-cosmetic">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J2912TMz_1024x1024.jpg?v=1506489434" class="img-responsive" alt="Cinque Terre">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J2912TMc_grande.jpg?v=1506489434" class="img-responsive hidden" alt="Cinque Terre">
+               </a>
+               </div>
+               <div width:100%>
+               <div class="cog"><a href = "https://www.beautybigbang.com/products/smudge-free-matte-lip-gloss-long-lasting-velvet-liquid-lipstick-cosmetic" class="text-center white">Smudge-free Matte Lip Gloss</a></div>
+               <div><span class="text-center lth">7.99$</span><span></span><span class = "text-center corf fontsp"><strong>3.99$</strong></span></div>
+               </div>            
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+               <div class = "reveal">
+               <a href="https://www.beautybigbang.com/products/christmas-xmas-nail-stamping-plate-gift-box-snowflake-snowman-pattern-for-manicure">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J6402-3A.jpg?v=1509155440" class="img-responsive" alt="Cinque Terre">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J6402TMi_grande.jpg?v=1509763933" class="img-responsive hidden" alt="Cinque Terre">
+               </a>
+               </div>
+               <div class="cog"><a href = "https://www.beautybigbang.com/products/christmas-xmas-nail-stamping-plate-gift-box-snowflake-snowman-pattern-for-manicure" class="text-center white">Xmas Nail Stamping Plate</a></div>
+               <div><span class="text-center lth">3.99$</span><span></span><span class = "text-center corf fontsp"><strong>2.39$</strong></span></div>
+            </div>  
+            <div class="col-md-3 col-sm-6 col-xs-6">
+               <div class = "reveal">
+               <a href="https://www.beautybigbang.com/products/christmas-xmas-nail-stamping-plate-gift-box-snowflake-snowman-pattern-for-manicure">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J6402-3A.jpg?v=1509155440" class="img-responsive" alt="Cinque Terre">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J6402TMi_grande.jpg?v=1509763933" class="img-responsive hidden" alt="Cinque Terre">
+               </a>
+               </div>
+               <div class="cog"><a href = "https://www.beautybigbang.com/products/christmas-xmas-nail-stamping-plate-gift-box-snowflake-snowman-pattern-for-manicure" class="text-center white">Xmas Nail Stamping Plate</a></div>
+               <div><span class="text-center lth">3.99$</span><span></span><span class = "text-center corf fontsp"><strong>2.39$</strong></span></div>
+            </div>        
+         <div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+               <div class = "reveal">
+               <a href="https://www.beautybigbang.com/products/2g-magic-mirror-powder-rose-gold-pigment-nail-art-glitter-decoration">
+               <img src="https://cdn.shopify.com/s/files/1/1833/5737/products/J2431.jpg?v=1495271645" class="img-responsive" alt="Cinque Terre">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J2431b.jpg?v=1495271647" class="img-responsive hidden" alt="Cinque Terre">
+               </a>
+               </div>
+               <div class="cog"><a href = "https://www.beautybigbang.com/products/2g-magic-mirror-powder-rose-gold-pigment-nail-art-glitter-decoration" class="text-center white">Rose Gold Nail Mirror Powder</a></div>
+               <div><span class="text-center lth">3.59$</span><span></span><span class = "text-center corf fontsp"><strong>1.79$</strong></span></div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+               <div class = "reveal">
+               <a href = "https://www.beautybigbang.com/products/christmas-nail-stamping-plate-xmas-deer-snowflake-santa-theme-manicure-tool">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J6402-4A.jpg?v=1509155664" class = "img-responsive" alt="Cinque Terre">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J6402TMj_grande.jpg?v=1509763954" alt="Cinque Terre" class = "img-responsive hidden">
+               </a>
+               </div>
+               <div class="cog"><a href = "https://www.beautybigbang.com/products/christmas-nail-stamping-plate-xmas-deer-snowflake-santa-theme-manicure-tool" class="text-center white">Snowflake Santa Stamping Plate</a></div>
+               <div><span class="text-center lth">3.99$</span><span></span><span class = "text-center corf fontsp"><strong>2.39$</strong></span></div>
+            </div>   
+            <div class="col-md-3 col-sm-6 col-xs-6">
+               <div class = "reveal">
+               <a href="https://www.beautybigbang.com/products/ultra-light-translucent-finishing-loose-powder-setting-powder-for-face-makeup">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J3136TM_1024x1024.jpg?v=1506575456" class="img-responsive" alt="Cinque Terre">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J3136TMb.jpg?v=1506575464" class="img-responsive hidden" alt="Cinque Terre">
+               </a>
+               </div>
+               <div class="cog"><a href = "https://www.beautybigbang.com/products/ultra-light-translucent-finishing-loose-powder-setting-powder-for-face-makeup" class="text-center white">Translucent Finishing Loose Powder</a></div>
+               <div><span class="text-center lth">3.69$</span><span></span><span class = "text-center corf fontsp"><strong>4.99$</strong></span></div>
+            </div>  
+            <div class="col-md-3 col-sm-6 col-xs-6">
+               <div class = "reveal">
+               <a href="https://www.beautybigbang.com/products/christmas-xmas-nail-stamping-plate-gift-box-snowflake-snowman-pattern-for-manicure">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J6402-3A.jpg?v=1509155440" class="img-responsive" alt="Cinque Terre">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J6402TMi_grande.jpg?v=1509763933" class="img-responsive hidden" alt="Cinque Terre">
+               </a>
+               </div>
+               <div class="cog"><a href = "https://www.beautybigbang.com/products/christmas-xmas-nail-stamping-plate-gift-box-snowflake-snowman-pattern-for-manicure" class="text-center white">Xmas Nail Stamping Plate</a></div>
+               <div><span class="text-center lth">3.99$</span><span></span><span class = "text-center corf fontsp"><strong>2.39$</strong></span></div>
+            </div>     
+         </div>   
+      </div>
    </div>
