@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-   <meta charset="utf-8"> 
-   <title>Real black Friday Frame</title>
-   <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">  
-   <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-   <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+
 <style>
 div{
-   margin:0;
+   margin:0 auto;
    text-align:center;
 }
 <!--not quite sure if this is needed XD-->
@@ -22,7 +14,7 @@ div{
    text-decoration: line-through;
 }
 .white{
-   color:white;
+   color:yellow;
 }
 .corf{
    color:red;
@@ -32,62 +24,182 @@ img{
     max-height: 100%;
 }
 .cog{
-   background-color:green;
+   background-color:black;
 }
 .fontsp{
-   font-size:150%;
+   font-size:15px;
+}
+.tagm{
+   font-size:30px;
+}
+/* ===============================================
+// Reveal module
+// =============================================== */
+
+.reveal .hidden { display: block !important; visibility: visible !important;}
+.product:hover .reveal img { opacity: 1; }
+.reveal { position: relative; }
+.reveal .hidden { 
+  position: absolute; 
+  z-index: -1;
+  top: 0; 
+  width: 100%; 
+  height: 100%;  
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;  
+}
+.reveal:hover .hidden { 
+  z-index: 100000;
+  opacity: 1;    
+}
+.reveal .caption {
+  position: absolute;
+  top: 0;  
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: white; /* fallback for IE8 */
+  background-color: rgba(255, 255, 255, 0.7);
+  font: 13px/1.6 sans-serif;
+  text-transform: uppercase;
+  color: #333;
+  letter-spacing: 1px;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+.reveal .hidden .caption .centered {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media (min-width: 480px) and (max-width: 979px) {
+  .reveal .caption { 
+    font-size: 11px; 
+  }
 }
 </style>
 
+  
    <div>
-      <img src = "//cdn.shopify.com/s/files/1/1833/5737/files/b1.jpg?v=1510024756" class = "img-responsive" alt = "Cinque Terre">
-   </div>   
-   <div>
-      <img src = "//cdn.shopify.com/s/files/1/1833/5737/files/b1.jpg?v=1510024756" class = "img-responsive" alt = "Cinque Terre">
+      <img src = "//cdn.shopify.com/s/files/1/1833/5737/t/11/assets/bfs1.jpg?11677887311098026124">
    </div>  
 
+   <br></br>
+   <br></br>
+   <div class = "tagm text-center">
+      Hash Sale
+   <div>
+   <br></br>
+   <br></br>
+
    <div class = "container">
-      <div class = "row h2">
+      <div class = "row">
             <div class="col-md-4 col-sm-6 col-xs-6">
+               <div class = "reveal">
+               <a href="https://www.beautybigbang.com/products/fish-scale-blush-foundation-makeup-brush-mermaid-nail-dust-brush">
                <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J2828_1024x1024.jpg?v=1499411786" class="img-responsive" alt="Cinque Terre">
-               <div class="cog"><a href = "address" class="text-center white">Fish Scale Makeup Brush</a></div>
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J2828p.jpg?v=1499411800" class="img-responsive hidden" alt="Cinque Terre">
+               </a>
+               </div>
+               <div class="cog"><a href = "https://www.beautybigbang.com/products/fish-scale-blush-foundation-makeup-brush-mermaid-nail-dust-brush" class="text-center white">Fish Scale Makeup Brush</a></div>
                <div><span class="text-center lth">5.49$</span><span></span><span class = "text-center corf fontsp"><strong>2.99$</strong></span></div>
             </div>   
             <div class="col-md-4 col-sm-6 col-xs-6">
+               <div class = "reveal">
+               <a href = "https://www.beautybigbang.com/products/smudge-free-matte-lip-gloss-long-lasting-velvet-liquid-lipstick-cosmetic">
                <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J2912TMz_1024x1024.jpg?v=1506489434" class="img-responsive" alt="Cinque Terre">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J2912TMc_grande.jpg?v=1506489434" class="img-responsive hidden" alt="Cinque Terre">
+               </a>
+               </div>
                <div width:100%>
-               <div class="cog"><a href = "address" class="text-center white">Smudge-free Matte Lip Gloss</a></div>
+               <div class="cog"><a href = "https://www.beautybigbang.com/products/smudge-free-matte-lip-gloss-long-lasting-velvet-liquid-lipstick-cosmetic" class="text-center white">Smudge-free Matte Lip Gloss</a></div>
                <div><span class="text-center lth">7.99$</span><span></span><span class = "text-center corf fontsp"><strong>3.99$</strong></span></div>
                </div>            
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6">
+               <div class = "reveal">
+               <a href="https://www.beautybigbang.com/products/christmas-xmas-nail-stamping-plate-gift-box-snowflake-snowman-pattern-for-manicure">
                <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J6402-3A.jpg?v=1509155440" class="img-responsive" alt="Cinque Terre">
-               <div class="cog"><a href = "address" class="text-center white">Xmas Nail Stamping Plate</a></div>
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J6402TMi_grande.jpg?v=1509763933" class="img-responsive hidden" alt="Cinque Terre">
+               </a>
+               </div>
+               <div class="cog"><a href = "https://www.beautybigbang.com/products/christmas-xmas-nail-stamping-plate-gift-box-snowflake-snowman-pattern-for-manicure" class="text-center white">Xmas Nail Stamping Plate</a></div>
                <div><span class="text-center lth">3.99$</span><span></span><span class = "text-center corf fontsp"><strong>2.39$</strong></span></div>
             </div>        
          <div>
             <div class="col-md-4 col-sm-6 col-xs-6">
+               <div class = "reveal">
+               <a href="https://www.beautybigbang.com/products/2g-magic-mirror-powder-rose-gold-pigment-nail-art-glitter-decoration">
                <img src="https://cdn.shopify.com/s/files/1/1833/5737/products/J2431.jpg?v=1495271645" class="img-responsive" alt="Cinque Terre">
-               <div class="cog"><a href = "address" class="text-center white">Rose Gold Nail Mirror Powder</a></div>
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J2431b.jpg?v=1495271647" class="img-responsive hidden" alt="Cinque Terre">
+               </a>
+               </div>
+               <div class="cog"><a href = "https://www.beautybigbang.com/products/2g-magic-mirror-powder-rose-gold-pigment-nail-art-glitter-decoration" class="text-center white">Rose Gold Nail Mirror Powder</a></div>
                <div><span class="text-center lth">3.59$</span><span></span><span class = "text-center corf fontsp"><strong>1.79$</strong></span></div>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6">
-               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J6402-4A.jpg?v=1509155664" alt="Cinque Terre">
-               <div class="cog"><a href = "address" class="text-center white">Snowflake Santa Stamping Plate</a></div>
+               <div class = "reveal">
+               <a href = "https://www.beautybigbang.com/products/christmas-nail-stamping-plate-xmas-deer-snowflake-santa-theme-manicure-tool">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J6402-4A.jpg?v=1509155664" class = "img-responsive" alt="Cinque Terre">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J6402TMj_grande.jpg?v=1509763954" alt="Cinque Terre" class = "img-responsive hidden">
+               </a>
+               </div>
+               <div class="cog"><a href = "https://www.beautybigbang.com/products/christmas-nail-stamping-plate-xmas-deer-snowflake-santa-theme-manicure-tool" class="text-center white">Snowflake Santa Stamping Plate</a></div>
                <div><span class="text-center lth">3.99$</span><span></span><span class = "text-center corf fontsp"><strong>2.39$</strong></span></div>
             </div>   
             <div class="col-md-4 col-sm-6 col-xs-6">
+               <div class = "reveal">
+               <a href="https://www.beautybigbang.com/products/ultra-light-translucent-finishing-loose-powder-setting-powder-for-face-makeup">
                <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J3136TM_1024x1024.jpg?v=1506575456" class="img-responsive" alt="Cinque Terre">
-               <div class="cog"><a href = "address" class="text-center white">Translucent Finishing Loose Powder</a></div>
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/products/J3136TMb.jpg?v=1506575464" class="img-responsive hidden" alt="Cinque Terre">
+               </a>
+               </div>
+               <div class="cog"><a href = "https://www.beautybigbang.com/products/ultra-light-translucent-finishing-loose-powder-setting-powder-for-face-makeup" class="text-center white">Translucent Finishing Loose Powder</a></div>
                <div><span class="text-center lth">3.69$</span><span></span><span class = "text-center corf fontsp"><strong>4.99$</strong></span></div>
             </div>     
          </div>   
       </div>
    </div>
+
+   <br></br>
+   <br></br>
+   <div class = "tagm text-center">
+      More Discount
+   <div>
+   <br></br>
+   <br></br>
+
+   <div>
+      <img src = "//cdn.shopify.com/s/files/1/1833/5737/t/11/assets/g1.jpg?10171864842716005421" class = "img-responsive" alt = "Cinque Terre">   
+   </div> 
+   <br></br>
+   <br></br>
+   <div class = "tagm text-center">
+      <span style>Buy One Gift One
+   <div>
+   <br></br>
+   <br></br>
+
+      <div class = "container">
+         <div class = "row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+               <a href="https://www.beautybigbang.com/products/ultra-light-translucent-finishing-loose-powder-setting-powder-for-face-makeup">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/t/11/assets/bfs1.jpg?11677887311098026124" alt="Cinque Terre" class = "img-responsive">
+               </a>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+               <a href="https://www.beautybigbang.com/products/ultra-light-translucent-finishing-loose-powder-setting-powder-for-face-makeup">
+               <img src="//cdn.shopify.com/s/files/1/1833/5737/t/11/assets/bfs1.jpg?11677887311098026124" alt="Cinque Terre" class = "img-responsive">
+               </a>
+            </div>
+         </div>
+      </div>
+
+
    <div>
       <strong>How to</strong>
-         <span>1. The Buy More Save More. We have different discount code for you to use when you purchase different amount of goods.</span>
+         <span style:>1. The Buy More Save More. We have different discount code for you to use when you purchase different amount of goods.</span>
    </div>
-
-</body>
-</html>
