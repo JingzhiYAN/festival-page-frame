@@ -3,14 +3,20 @@
 .mmid{
     text-align:center;
 }
+.top{
+    width:200px;
+    height:200px;
+}
 </style>
 
 <div class = "mmid">
-    <img src="//cdn.shopify.com/s/files/1/1833/5737/files/final.jpg?17874" alt="Beauty Big Bang">
+    <img src="//cdn.shopify.com/s/files/1/1833/5737/files/final.jpg?17874" alt="Beauty Big Bang" class="top">
 </div>
+<br></br>
+<br></br>
 <div class = "mmid">
     <!--Tracking number input box.-->
-    <input type="text" id="YQNum" maxlength="50"/>
+    <input type="text" style = "background-color:white" id="YQNum" maxlength="60"/>
     <!--The button is used to call script method.-->
     <input type="button" value="TRACK" onclick="doTrack()"/>
     <!--Container to display the tracking result.-->
@@ -29,7 +35,7 @@ function doTrack() {
         //Required, Specify the container ID of the carrier content.
         YQ_ContainerId:"YQContainer",
         //Optional, specify tracking result height, max height 800px, default is 560px.
-        YQ_Height:800,
+        YQ_Height:560,
         //Optional, select carrier, default to auto identify.
         YQ_Fc:"0",
         //Optional, specify UI language, default language is automatically detected based on the browser settings.
@@ -39,5 +45,3 @@ function doTrack() {
     });
 }
 </script>
-
-
